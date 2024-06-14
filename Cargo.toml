@@ -1,0 +1,13 @@
+[package]
+name = "my-react-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "*"
+mongodb = { version = "2.8.2" }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = {version="*"}
+tokio = { version = "*", features = ["full"] }
+tower = {version="*"}
+tower-http = {version="*", features=["full"]}
